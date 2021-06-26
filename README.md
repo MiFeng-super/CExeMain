@@ -4,7 +4,7 @@
 # 支持
 x64 x32
 
-# 实时方法
+# 实现方法
 替换 LDR_DATA_TABLE_ENTRY 中的 EntryPoint。具体看完整源码。
 ```cpp
 PVOID __stdcall LdrSetEntryPoint(HMODULE hModule, PVOID EntryPoint)
